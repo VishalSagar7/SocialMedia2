@@ -16,7 +16,7 @@ const __dirname = path.resolve();
 
 // middlewares 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://socialmedia2-z3qi.onrender.com',
     credentials: true
 }));
 
